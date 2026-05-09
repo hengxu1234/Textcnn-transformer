@@ -1,0 +1,18 @@
+2025-09-29 11:07:00,276 DEBUG 10264   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:105.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '我丢，我被超了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.00027225687517784536, 'positive_prob': 0.9997277855873108}, 'label': 'PASS', 'pinyin': 'wo diu wo bei chao le', 'strokes': '㇒一㇚㇀㇂㇒㇔㇒一〡一𠃋㇔㇒一㇚㇀㇂㇒㇔㇔㇇〡㇒㇔㇇㇒〡㇇㇏一〡一〡一㇒㇏㇆㇒〡㇕一㇇㇚', 'text': '我丢我被超了'}], 'message': '成功', 'requestId': '5dbd5cc0-9ce1-11f0-ba4b-30894a61ffe3'}
+} 
+2025-09-29 11:07:51,266 DEBUG 10264   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:27.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面两行十位数连是Q，我有所有的礻乚品杩，给你们说声少年就行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.8941529989242554, 'positive_prob': 0.10584702342748642}, 'label': 'REJECT', 'pinyin': 'shang mian liang xing shi wei shu lian shi q wo you suo you de shi yin pin ma gei ni men shuo sheng shao nian jiu xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏一𠃋一〡㇔㇋㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚', 'text': '上面两行十位数连是q我有所有的礻乚品杩给你们说声少年就行'}], 'message': '成功', 'requestId': '7c21e77a-9ce1-11f0-abfc-30894a61ffe3'}
+} 
+2025-09-29 11:07:57,924 DEBUG 10264   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面两行十位数连是Q，我有所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9771868586540222, 'positive_prob': 0.022813081741333008}, 'label': 'REJECT', 'pinyin': 'shang mian liang xing shi wei shu lian shi q wo you suo you de shi yin pin ma', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏一𠃋一〡㇔㇋㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': '上面两行十位数连是q我有所有的礻乚品杩'}], 'message': '成功', 'requestId': '8019dec2-9ce1-11f0-8cdc-30894a61ffe3'}
+} 

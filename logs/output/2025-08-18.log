@@ -1,0 +1,78 @@
+2025-08-18 14:56:27,781 DEBUG 38968   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:63.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '800850要30-40分钟'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.4620537757873535, 'positive_prob': 0.5379461646080017}, 'label': 'PASS', 'pinyin': 'ba ling ling ba wu ling yao san ling si ling fen zhong', 'strokes': '㇒㇏一〡一〡㇒㇏一〡㇕一一〡一〡㇕〡〡一㇛㇒一一一一一〡〡㇕㇒㇗一一〡㇒㇏㇆㇒㇒一一一㇙〡㇕一〡', 'text': '800850要3040分钟'}], 'message': '成功', 'requestId': '76767982-7c00-11f0-b55e-30894a61ffe3'}
+} 
+2025-08-18 14:57:41,792 DEBUG 38968   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.530 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新盗墓笔记O.l择板，还宋万圆茺职咔'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9891619682312012, 'positive_prob': 0.010838019661605358}, 'label': 'REJECT', 'pinyin': 'xin dao mu bi ji o l ze ban huan song wan yuan chong zhi ka', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡㇔㇀㇒㇇㇒㇏〡㇕〡〡一一〡〡〡㇕一一一㇒㇏一〡一㇒一㇔㇒一㇔㇒一一乚㇔㇊㇕一乚ol一㇚㇀㇇㇏一一〡一〡㇒㇔㇒㇒㇇㇏一㇒〡㇔㇔㇋㇏㇔㇔㇇一〡㇒㇏一㇆㇒〡㇕〡㇕一〡㇕㇒㇔一一〡〡㇔一𠃋㇔㇒乚一〡〡一一㇀〡㇕一㇒㇔〡㇕一〡一一〡㇔', 'text': '新盗墓笔记ol择板还宋万圆茺职咔'}], 'message': '成功', 'requestId': 'a293aec6-7c00-11f0-8c53-30894a61ffe3'}
+} 
+2025-08-18 15:40:36,614 DEBUG 39808   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:67.550 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '蝙蝠9分钟2000'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7868903279304504, 'positive_prob': 0.21310971677303314}, 'label': 'REJECT', 'pinyin': 'bian fu jiu fen zhong er ling ling ling', 'strokes': '〡㇕一〡一㇔㇔㇕一㇒〡㇆一〡〡〡㇕一〡一㇔一〡㇕一〡㇕一〡一㇒㇈㇒㇏㇆㇒㇒一一一㇙〡㇕一〡一一一〡一〡一〡', 'text': '蝙蝠9分钟2000'}], 'message': '成功', 'requestId': 'a14a4e4a-7c06-11f0-933d-30894a61ffe3'}
+} 
+2025-08-18 15:41:09,418 DEBUG 39808   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.580 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '你看木木8400都快1亿了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9179962277412415, 'positive_prob': 0.08200380206108093}, 'label': 'REJECT', 'pinyin': 'ni kan mu mu ba si ling ling du kuai yi yi le', 'strokes': '㇒〡㇒㇇㇚㇒㇔㇒一一㇒〡㇕一一一一〡㇒㇏一〡㇒㇏㇒㇏〡㇕㇒㇗一一〡一〡一〡一㇒〡㇕一一㇡〡㇔㇔〡㇕一㇒㇏一㇒〡㇈㇇㇚', 'text': '你看木木8400都快1亿了'}], 'message': '成功', 'requestId': 'b4d7f386-7c06-11f0-8627-30894a61ffe3'}
+} 
+2025-08-18 15:42:13,880 DEBUG 39808   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.020 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新增的势力战 11-12 22-23点打最左边两个 16-17点再加一个中间点昆仑城'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.972934365272522, 'positive_prob': 0.027065617963671684}, 'label': 'REJECT', 'pinyin': 'xin zeng de shi li zhan yi yi yi er er er er san dian da zui zuo bian liang ge yi liu yi qi dian zai jia yi ge zhong jian dian kun lun cheng', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡一〡㇀㇔㇒〡㇕〡㇔㇒一〡㇕一一㇒〡㇕一一㇒㇆㇔一㇚㇀㇒㇈㇔㇆㇒㇆㇒〡一〡㇕一一㇂㇒㇔一一一一一一一一一一一一一一〡一〡㇕一㇔㇔㇔㇔一㇚㇀一㇚〡㇕一一一〡〡一一㇀㇇㇏一㇒一〡一㇆㇒㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇏〡一㇔一㇒㇔一一乚〡一〡㇕一㇔㇔㇔㇔一〡㇆〡一一㇆㇒〡㇕一一㇒㇏〡〡㇕一〡㇔〡㇆〡㇕一一〡一〡㇕一㇔㇔㇔㇔〡㇕一一一㇙㇒乚㇒㇏㇒乚一〡㇀一㇒㇆㇂㇒㇔', 'text': '新增的势力战11122223点打最左边两个1617点再加一个中间点昆仑城'}], 'message': '成功', 'requestId': 'db4412b6-7c06-11f0-b335-30894a61ffe3'}
+} 
+2025-08-18 15:42:43,075 DEBUG 39808   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:26.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '9+9+25=43'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9385939240455627, 'positive_prob': 0.06140613928437233}, 'label': 'REJECT', 'pinyin': 'jiu jia jiu jia er wu shi si san', 'strokes': '㇒㇈㇆㇒〡㇕一㇒㇈㇆㇒〡㇕一一一一〡㇕一〡㇕一一一〡一㇒㇏〡㇕㇒㇗一一一一', 'text': '9加9加25是43'}], 'message': '成功', 'requestId': 'ecaaa876-7c06-11f0-ad9d-30894a61ffe3'}
+} 
+2025-08-18 15:44:26,760 DEBUG 39808   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.120 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '你先可以去D音看看攻略'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.6891171336174011, 'positive_prob': 0.3108828365802765}, 'label': 'REJECT', 'pinyin': 'ni xian ke yi qu d yin kan kan gong lve', 'strokes': '㇒〡㇒㇇㇚㇒㇔㇒一〡一㇒乚一〡㇕一㇚㇙㇔㇒㇔一〡一𠃋㇔d㇔一㇔㇒一〡㇕一一㇒一一㇒〡㇕一一一㇒一一㇒〡㇕一一一一〡㇀㇒一㇒㇏〡㇕一〡一㇒㇇㇏〡㇕一', 'text': '你先可以去d音看看攻略'}], 'message': '成功', 'requestId': '2a77da5a-7c07-11f0-ac6f-30894a61ffe3'}
+} 
+2025-08-18 15:45:40,967 DEBUG 39808   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.760 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'okok那就微信和和家族吧'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7807173728942871, 'positive_prob': 0.21928265690803528}, 'label': 'REJECT', 'pinyin': 'o k o k na jiu wei xin he he jia zu ba', 'strokes': 'okok㇆一一㇒㇡〡㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡〡㇗〡一㇒㇊㇒一㇒㇏㇒〡㇔一一一〡㇕一㇒一〡㇒㇔〡㇕一㇒一〡㇒㇔〡㇕一㇔㇔㇇一㇒㇁㇒㇒㇒㇏㇔一㇆㇒㇒一㇒一一㇒㇏〡㇕一㇕〡一乚', 'text': 'okok那就微信和和家族吧'}], 'message': '成功', 'requestId': '56b2e418-7c07-11f0-9fc7-30894a61ffe3'}
+} 
+2025-08-18 15:46:35,773 DEBUG 39808   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '115+120 三和四'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9379966259002686, 'positive_prob': 0.06200340762734413}, 'label': 'REJECT', 'pinyin': 'yi yi wu jia yi er ling san he si', 'strokes': '一一一〡㇕一㇆㇒〡㇕一一一一一〡一一一㇒一〡㇒㇔〡㇕一〡㇕㇒㇗一', 'text': '115加120三和四'}], 'message': '成功', 'requestId': '775dd8e6-7c07-11f0-9662-30894a61ffe3'}
+} 
+2025-08-18 16:05:08,236 DEBUG 39808   ---  [Thread-8] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:30.030 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新盗墓笔记O.l择板，还宋万圆茺职咔'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9891619682312012, 'positive_prob': 0.010838019661605358}, 'label': 'REJECT', 'pinyin': 'xin dao mu bi ji o l ze ban huan song wan yuan chong zhi ka', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡㇔㇀㇒㇇㇒㇏〡㇕〡〡一一〡〡〡㇕一一一㇒㇏一〡一㇒一㇔㇒一㇔㇒一一乚㇔㇊㇕一乚ol一㇚㇀㇇㇏一一〡一〡㇒㇔㇒㇒㇇㇏一㇒〡㇔㇔㇋㇏㇔㇔㇇一〡㇒㇏一㇆㇒〡㇕〡㇕一〡㇕㇒㇔一一〡〡㇔一𠃋㇔㇒乚一〡〡一一㇀〡㇕一㇒㇔〡㇕一〡一一〡㇔', 'text': '新盗墓笔记ol择板还宋万圆茺职咔'}], 'message': '成功', 'requestId': '0e72320a-7c0a-11f0-873e-30894a61ffe3'}
+} 
+2025-08-18 16:07:09,539 DEBUG 39808   ---  [Thread-9] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:25.260 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新盗墓笔记O.l择板，还宋万圆茺职咔'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9891619682312012, 'positive_prob': 0.010838019661605358}, 'label': 'REJECT', 'pinyin': 'xin dao mu bi ji o l ze ban huan song wan yuan chong zhi ka', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡㇔㇀㇒㇇㇒㇏〡㇕〡〡一一〡〡〡㇕一一一㇒㇏一〡一㇒一㇔㇒一㇔㇒一一乚㇔㇊㇕一乚ol一㇚㇀㇇㇏一一〡一〡㇒㇔㇒㇒㇇㇏一㇒〡㇔㇔㇋㇏㇔㇔㇇一〡㇒㇏一㇆㇒〡㇕〡㇕一〡㇕㇒㇔一一〡〡㇔一𠃋㇔㇒乚一〡〡一一㇀〡㇕一㇒㇔〡㇕一〡一一〡㇔', 'text': '新盗墓笔记ol择板还宋万圆茺职咔'}], 'message': '成功', 'requestId': '56bf67b6-7c0a-11f0-8706-30894a61ffe3'}
+} 
+2025-08-18 16:40:25,245 DEBUG 39808   ---  [Thread-10] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:28.790 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新盗墓笔记O.l择板，还宋万圆茺职咔'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9891619682312012, 'positive_prob': 0.010838019661605358}, 'label': 'REJECT', 'pinyin': 'xin dao mu bi ji o l ze ban huan song wan yuan chong zhi ka', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡㇔㇀㇒㇇㇒㇏〡㇕〡〡一一〡〡〡㇕一一一㇒㇏一〡一㇒一㇔㇒一㇔㇒一一乚㇔㇊㇕一乚ol一㇚㇀㇇㇏一一〡一〡㇒㇔㇒㇒㇇㇏一㇒〡㇔㇔㇋㇏㇔㇔㇇一〡㇒㇏一㇆㇒〡㇕〡㇕一〡㇕㇒㇔一一〡〡㇔一𠃋㇔㇒乚一〡〡一一㇀〡㇕一㇒㇔〡㇕一〡一一〡㇔', 'text': '新盗墓笔记ol择板还宋万圆茺职咔'}], 'message': '成功', 'requestId': 'fc4809c6-7c0e-11f0-90a6-30894a61ffe3'}
+} 
+2025-08-18 16:48:59,071 DEBUG 39808   ---  [Thread-11] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:29.420 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '新盗墓笔记O.l择板，还宋万圆茺职咔'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9891619682312012, 'positive_prob': 0.010838019661605358}, 'label': 'REJECT', 'pinyin': 'xin dao mu bi ji o l ze ban huan song wan yuan chong zhi ka', 'strokes': '㇔一㇔㇒一一㇚㇒㇔㇒㇒一〡㇔㇀㇒㇇㇒㇏〡㇕〡〡一一〡〡〡㇕一一一㇒㇏一〡一㇒一㇔㇒一㇔㇒一一乚㇔㇊㇕一乚ol一㇚㇀㇇㇏一一〡一〡㇒㇔㇒㇒㇇㇏一㇒〡㇔㇔㇋㇏㇔㇔㇇一〡㇒㇏一㇆㇒〡㇕〡㇕一〡㇕㇒㇔一一〡〡㇔一𠃋㇔㇒乚一〡〡一一㇀〡㇕一㇒㇔〡㇕一〡一一〡㇔', 'text': '新盗墓笔记ol择板还宋万圆茺职咔'}], 'message': '成功', 'requestId': '2e8b97da-7c10-11f0-a3df-30894a61ffe3'}
+} 

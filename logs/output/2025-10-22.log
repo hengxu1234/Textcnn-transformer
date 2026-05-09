@@ -1,0 +1,48 @@
+2025-10-22 16:31:19,005 DEBUG 39276   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:114.110 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9984845519065857, 'positive_prob': 0.001515496289357543}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是上面两行的数字给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': '7b8c223e-af21-11f0-a82c-30894a61ffe3'}
+} 
+2025-10-22 16:31:37,497 DEBUG 39276   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.120 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我有仝部衤Ｌ孢杩发给你们，来了说下是少三的就行了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9847575426101685, 'positive_prob': 0.015242393128573895}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo you tong bu 衤 l bao ma fa gei ni men lai le shuo xia shi shao san de jiu xing le', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇒㇔l㇇㇚㇀㇒㇆㇕一乚一〡㇒㇔㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚一〡㇔〡㇕一一一〡一㇒㇏〡㇒㇔㇒一一一㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚㇇㇚', 'text': '上面十位数是起俄我有仝部衤l孢杩发给你们来了说下是少三的就行了'}], 'message': '成功', 'requestId': '8691e608-af21-11f0-a971-30894a61ffe3'}
+} 
+2025-10-22 16:31:43,715 DEBUG 39276   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:21.660 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我有仝部衤孢杩发给你们，来了说下是少三的就行了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9715426564216614, 'positive_prob': 0.02845732308924198}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo you tong bu 衤 bao ma fa gei ni men lai le shuo xia shi shao san de jiu xing le', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇒㇔㇇㇚㇀㇒㇆㇕一乚一〡㇒㇔㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚一〡㇔〡㇕一一一〡一㇒㇏〡㇒㇔㇒一一一㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚㇇㇚', 'text': '上面十位数是起俄我有仝部衤孢杩发给你们来了说下是少三的就行了'}], 'message': '成功', 'requestId': '8a467688-af21-11f0-aa5f-30894a61ffe3'}
+} 
+2025-10-22 16:31:49,852 DEBUG 39276   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:21.050 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我有仝部发给你们，来了说下是少三的就行了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9474409222602844, 'positive_prob': 0.05255910009145737}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo you tong bu fa gei ni men lai le shuo xia shi shao san de jiu xing le', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一〡一㇔一㇔㇒一〡㇕一㇡〡𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚一〡㇔〡㇕一一一〡一㇒㇏〡㇒㇔㇒一一一㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚㇇㇚', 'text': '上面十位数是起俄我有仝部发给你们来了说下是少三的就行了'}], 'message': '成功', 'requestId': '8def20e6-af21-11f0-b7af-30894a61ffe3'}
+} 
+2025-10-22 16:31:55,035 DEBUG 39276   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.050 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我发给你们，来了说下是少三的就行了'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.912869393825531, 'positive_prob': 0.0871305763721466}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo fa gei ni men lai le shuo xia shi shao san de jiu xing le', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚一〡㇔〡㇕一一一〡一㇒㇏〡㇒㇔㇒一一一㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚㇇㇚', 'text': '上面十位数是起俄我发给你们来了说下是少三的就行了'}], 'message': '成功', 'requestId': '9105f9b0-af21-11f0-916c-30894a61ffe3'}
+} 
+2025-10-22 16:32:00,329 DEBUG 39276   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.570 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我发给你们'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.6289716958999634, 'positive_prob': 0.3710283041000366}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo fa gei ni men', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆', 'text': '上面十位数是起俄我发给你们'}], 'message': '成功', 'requestId': '942da81c-af21-11f0-be9b-30894a61ffe3'}
+} 
+2025-10-22 16:32:18,747 DEBUG 39276   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.690 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我发给你们礼品码'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.800391435623169, 'positive_prob': 0.19960859417915344}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo fa gei ni men li pin ma', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一', 'text': '上面十位数是起俄我发给你们礼品码'}], 'message': '成功', 'requestId': '9f280e06-af21-11f0-9e8d-30894a61ffe3'}
+} 
+2025-10-22 16:32:27,628 DEBUG 39276   ---  [Thread-8] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:26.150 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是起俄，我有礼品码发给你们'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9507653117179871, 'positive_prob': 0.049234699457883835}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi qi e wo you li pin ma fa gei ni men', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏一〡一〡一㇒㇏㇕一乚㇒〡㇒一㇚㇀㇂㇒㇔㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆', 'text': '上面十位数是起俄我有礼品码发给你们'}], 'message': '成功', 'requestId': 'a4731a9a-af21-11f0-ab18-30894a61ffe3'}
+} 

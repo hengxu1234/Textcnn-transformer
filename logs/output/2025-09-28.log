@@ -1,0 +1,54 @@
+2025-09-28 11:19:54,211 DEBUG 10072   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:109.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是Q，茗叫啊雾，礼品码发给你们，来了说是三国志的就行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9645525217056274, 'positive_prob': 0.03544752672314644}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi q ming jiao a wu li pin ma fa gei ni men lai le shuo shi san guo zhi de jiu xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏q一〡〡㇒㇇㇔〡㇕一〡㇕一㇙〡〡㇕一㇡〡一〡㇕一㇚一㇔㇇〡㇔㇔㇔㇔㇒㇇㇏㇆㇒㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚〡㇕一一一〡一㇒㇏一一一〡㇕一一〡一㇔一一〡一㇔㇂㇔㇔㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚', 'text': '上面十位数是q茗叫啊雾礼品码发给你们来了说是三国志的就行'}], 'message': '成功', 'requestId': '00a0c500-9c1a-11f0-9031-30894a61ffe3'}
+} 
+2025-09-28 11:20:18,962 DEBUG 10072   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:41.080 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是Q,我有全部礼品码发给你们,说是三国志的就行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9557446241378784, 'positive_prob': 0.044255346059799194}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi q wo you quan bu li pin ma fa gei ni men shuo shi san guo zhi de jiu xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇔㇊㇔㇒〡㇕一㇒乚〡㇕一一一〡一㇒㇏一一一〡㇕一一〡一㇔一一〡一㇔㇂㇔㇔㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚', 'text': '上面十位数是q我有全部礼品码发给你们说是三国志的就行'}], 'message': '成功', 'requestId': '0f6179a8-9c1a-11f0-9346-30894a61ffe3'}
+} 
+2025-09-28 11:20:26,540 DEBUG 10072   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是Q,我有全部礼品码发给你们'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9641193747520447, 'positive_prob': 0.03588061407208443}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi q wo you quan bu li pin ma fa gei ni men', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆', 'text': '上面十位数是q我有全部礼品码发给你们'}], 'message': '成功', 'requestId': '13e5c6fe-9c1a-11f0-bfc3-30894a61ffe3'}
+} 
+2025-09-28 11:28:48,151 DEBUG 10072   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:29.810 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面两行十位数连是我Q，茗是猪。我有所有礼品码可以发你们，来了说下秒发'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9890059232711792, 'positive_prob': 0.010994089767336845}, 'label': 'REJECT', 'pinyin': 'shang mian liang xing shi wei shu lian shi wo q ming shi zhu wo you suo you li pin ma ke yi fa ni men lai le shuo xia miao fa', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏一𠃋一〡㇔㇋㇏〡㇕一一一〡一㇒㇏㇒一㇚㇀㇂㇒㇔q一〡〡㇒㇇㇔〡㇕一〡㇕一一一〡一㇒㇏㇒㇁㇒一〡一㇒〡㇕一一㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一一〡㇕一㇚㇙㇔㇒㇔𠃋㇒㇇㇏㇔㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆一㇔㇒一〡㇒㇏㇇㇚㇔㇊㇔㇒〡㇕一㇒乚一〡㇔㇒一〡㇒㇔〡㇒㇔㇒𠃋㇒㇇㇏㇔', 'text': '上面两行十位数连是我q茗是猪我有所有礼品码可以发你们来了说下秒发'}], 'message': '成功', 'requestId': '3ee1893a-9c1b-11f0-80a8-30894a61ffe3'}
+} 
+2025-09-28 11:29:09,327 DEBUG 10072   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.010 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面两行十位数连是我Q。我有所有礼品码可以发你们'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9868261218070984, 'positive_prob': 0.013173915445804596}, 'label': 'REJECT', 'pinyin': 'shang mian liang xing shi wei shu lian shi wo q wo you suo you li pin ma ke yi fa ni men', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏一𠃋一〡㇔㇋㇏〡㇕一一一〡一㇒㇏㇒一㇚㇀㇂㇒㇔q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一一〡㇕一㇚㇙㇔㇒㇔𠃋㇒㇇㇏㇔㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆', 'text': '上面两行十位数连是我q我有所有礼品码可以发你们'}], 'message': '成功', 'requestId': '4b80b5ee-9c1b-11f0-ab84-30894a61ffe3'}
+} 
+2025-09-28 11:31:32,863 DEBUG 10072   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:29.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是Q,我有全部礼品码发给你们,说是三国志的就行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9557446241378784, 'positive_prob': 0.044255346059799194}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi q wo you quan bu li pin ma fa gei ni men shuo shi san guo zhi de jiu xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇔㇊㇔㇒〡㇕一㇒乚〡㇕一一一〡一㇒㇏一一一〡㇕一一〡一㇔一一〡一㇔㇂㇔㇔㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚', 'text': '上面十位数是q我有全部礼品码发给你们说是三国志的就行'}], 'message': '成功', 'requestId': 'a10ea1ac-9c1b-11f0-ac6b-30894a61ffe3'}
+} 
+2025-09-28 11:31:43,025 DEBUG 10072   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '你好'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.006341745611280203, 'positive_prob': 0.9936582446098328}, 'label': 'PASS', 'pinyin': 'ni hao', 'strokes': '㇒〡㇒㇇㇚㇒㇔㇛㇒一㇇㇚一', 'text': '你好'}], 'message': '成功', 'requestId': 'a71d5190-9c1b-11f0-af70-30894a61ffe3'}
+} 
+2025-09-28 11:31:47,590 DEBUG 10072   ---  [Thread-8] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.010 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是Q,我有全部礼品码发给你们,说是三国志的就行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9557446241378784, 'positive_prob': 0.044255346059799194}, 'label': 'REJECT', 'pinyin': 'shang mian shi wei shu shi q wo you quan bu li pin ma fa gei ni men shuo shi san guo zhi de jiu xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏q㇒一㇚㇀㇂㇒㇔一㇒〡㇆一一㇒㇏一一〡一㇔一㇔㇒一〡㇕一㇡〡㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一㇒〡㇕一㇕㇉一𠃋㇒㇇㇏㇔𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇔㇊㇔㇒〡㇕一㇒乚〡㇕一一一〡一㇒㇏一一一〡㇕一一〡一㇔一一〡一㇔㇂㇔㇔㇒〡㇕一一㇒㇆㇔㇔一〡㇕一㇚㇒㇔一㇒乚㇔㇒㇒〡一一㇚', 'text': '上面十位数是q我有全部礼品码发给你们说是三国志的就行'}], 'message': '成功', 'requestId': 'a9d5d8c6-9c1b-11f0-a4ea-30894a61ffe3'}
+} 
+2025-09-28 11:31:54,830 DEBUG 10072   ---  [Thread-9] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:26.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '上面十位数是行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.0916953757405281, 'positive_prob': 0.9083045721054077}, 'label': 'PASS', 'pinyin': 'shang mian shi wei shu shi xing', 'strokes': '〡一一一㇒〡㇕〡〡一一一一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏〡㇕一一一〡一㇒㇏㇒㇒〡一一㇚', 'text': '上面十位数是行'}], 'message': '成功', 'requestId': 'ae2670a2-9c1b-11f0-a13c-30894a61ffe3'}
+} 

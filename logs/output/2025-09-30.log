@@ -1,0 +1,186 @@
+2025-09-30 11:27:31,904 DEBUG 38840   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:60.030 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.8763617873191833, 'positive_prob': 0.12363814562559128}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是上面两行十位数给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': '6642dda4-9dad-11f0-b55f-30894a61ffe3'}
+} 
+2025-09-30 11:27:37,911 DEBUG 38840   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:29.860 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9452371001243591, 'positive_prob': 0.05476291477680206}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是上面两行十位数给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': '69d76c4a-9dad-11f0-92b5-30894a61ffe3'}
+} 
+2025-09-30 11:27:41,629 DEBUG 38840   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:38.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚品'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9344032406806946, 'positive_prob': 0.06559678912162781}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin pin', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一', 'text': 'q是上面两行十位数给你们所有的礻乚品'}], 'message': '成功', 'requestId': '6c0e9088-9dad-11f0-b883-30894a61ffe3'}
+} 
+2025-09-30 11:27:44,776 DEBUG 38840   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:21.650 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9092815518379211, 'positive_prob': 0.09071845561265945}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚', 'text': 'q是上面两行十位数给你们所有的礻乚'}], 'message': '成功', 'requestId': '6deefb62-9dad-11f0-98d6-30894a61ffe3'}
+} 
+2025-09-30 11:27:47,855 DEBUG 38840   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:21.690 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.8473716974258423, 'positive_prob': 0.15262827277183533}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔', 'text': 'q是上面两行十位数给你们所有的礻'}], 'message': '成功', 'requestId': '6fc4b554-9dad-11f0-b94a-30894a61ffe3'}
+} 
+2025-09-30 11:27:52,625 DEBUG 38840   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.730 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9834749698638916, 'positive_prob': 0.016524983569979668}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏', 'text': 'q是上面两行十位数'}], 'message': '成功', 'requestId': '729ca5da-9dad-11f0-bf8c-30894a61ffe3'}
+} 
+2025-09-30 11:27:59,658 DEBUG 38840   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '1231'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.2512240409851074, 'positive_prob': 0.7487759590148926}, 'label': 'PASS', 'pinyin': 'yi er san yi', 'strokes': '一一一一一一一', 'text': '1231'}], 'message': '成功', 'requestId': '76cda2e6-9dad-11f0-b86c-30894a61ffe3'}
+} 
+2025-09-30 11:35:59,679 DEBUG 30900   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:63.560 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '这个怎么玩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.00419791042804718, 'positive_prob': 0.995802104473114}, 'label': 'PASS', 'pinyin': 'zhe ge zen me wan', 'strokes': '㇔一㇒㇔㇔㇋㇏㇒㇏〡㇒一〡一一㇔㇂㇔㇔㇒𠃋㇔一一〡㇀一一㇒乚', 'text': '这个怎么玩'}], 'message': '成功', 'requestId': '94eb00c8-9dae-11f0-8744-30894a61ffe3'}
+} 
+2025-09-30 11:45:30,128 DEBUG 30900   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:32.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9452371001243591, 'positive_prob': 0.05476291477680206}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是上面两行十位数给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': 'e8eec3d0-9daf-11f0-bbe4-30894a61ffe3'}
+} 
+2025-09-30 11:48:18,607 DEBUG 30900   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:27.070 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9452371001243591, 'positive_prob': 0.05476291477680206}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是上面两行十位数给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': '4d5aa37a-9db0-11f0-b147-30894a61ffe3'}
+} 
+2025-09-30 11:49:03,361 DEBUG 30900   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:30.010 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行十位数，所有的礻'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9709053635597229, 'positive_prob': 0.029094664379954338}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing shi wei shu suo you de shi', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚一〡㇒〡㇔一㇔㇒一㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔', 'text': 'q是上面两行十位数所有的礻'}], 'message': '成功', 'requestId': '68078f7e-9db0-11f0-949b-30894a61ffe3'}
+} 
+2025-09-30 12:01:44,960 DEBUG 30900   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:27.580 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.5111829042434692, 'positive_prob': 0.48881709575653076}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是上面两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': '2dfa1dfe-9db2-11f0-90b7-30894a61ffe3'}
+} 
+2025-09-30 12:20:04,621 DEBUG 38800   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:57.930 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9838235378265381, 'positive_prob': 0.01617649383842945}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是上面两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'bd6d2c36-9db4-11f0-956e-30894a61ffe3'}
+} 
+2025-09-30 12:20:10,535 DEBUG 38800   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.040 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9961484670639038, 'positive_prob': 0.0038515564519912004}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚', 'text': 'q是上面两行'}], 'message': '成功', 'requestId': 'c0f39702-9db4-11f0-9605-30894a61ffe3'}
+} 
+2025-09-30 12:20:18,046 DEBUG 38800   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.260 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9967128038406372, 'positive_prob': 0.003287248546257615}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一', 'text': 'q是上面两行的数字'}], 'message': '成功', 'requestId': 'c56db600-9db4-11f0-a091-30894a61ffe3'}
+} 
+2025-09-30 12:20:37,185 DEBUG 38800   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:25.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9910763502120972, 'positive_prob': 0.008923676796257496}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一', 'text': 'q是上面两行的数字给你们所有的礻乚品'}], 'message': '成功', 'requestId': 'd0d6304c-9db4-11f0-a337-30894a61ffe3'}
+} 
+2025-09-30 12:20:53,310 DEBUG 38800   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:26.170 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '虎牢来人'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 5.5342599807772785e-05, 'positive_prob': 0.9999446868896484}, 'label': 'PASS', 'pinyin': 'hu lao lai ren', 'strokes': '〡一㇇㇒一乚㇒㇈㇔㇔㇇㇒一一〡一㇔㇒一〡㇒㇏㇒㇏', 'text': '虎牢来人'}], 'message': '成功', 'requestId': 'da729776-9db4-11f0-bbf0-30894a61ffe3'}
+} 
+2025-09-30 12:21:00,707 DEBUG 38800   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:21.750 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '虎牢'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 6.4821851992746815e-06, 'positive_prob': 0.9999935626983643}, 'label': 'PASS', 'pinyin': 'hu lao', 'strokes': '〡一㇇㇒一乚㇒㇈㇔㇔㇇㇒一一〡', 'text': '虎牢'}], 'message': '成功', 'requestId': 'dedb37f8-9db4-11f0-a1f7-30894a61ffe3'}
+} 
+2025-09-30 12:21:10,839 DEBUG 38800   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': '凡总'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.0001652840437600389, 'positive_prob': 0.9998346567153931}, 'label': 'PASS', 'pinyin': 'fan zong', 'strokes': '㇒㇈㇔㇔㇒〡㇕一㇔㇂㇔㇔', 'text': '凡总'}], 'message': '成功', 'requestId': 'e4e5490a-9db4-11f0-8dd2-30894a61ffe3'}
+} 
+2025-09-30 13:24:10,547 DEBUG 32464   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:60.790 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9646723866462708, 'positive_prob': 0.03532763198018074}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是上面两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'b1c71082-9dbd-11f0-b817-30894a61ffe3'}
+} 
+2025-09-30 13:24:24,894 DEBUG 32464   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9333202838897705, 'positive_prob': 0.06667974591255188}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一', 'text': 'q是这两行的数字'}], 'message': '成功', 'requestId': 'ba5430c8-9dbd-11f0-aa06-30894a61ffe3'}
+} 
+2025-09-30 13:24:33,274 DEBUG 32464   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.010 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9333202838897705, 'positive_prob': 0.06667974591255188}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一', 'text': 'q是这两行的数字'}], 'message': '成功', 'requestId': 'bf52e236-9dbd-11f0-a709-30894a61ffe3'}
+} 
+2025-09-30 13:24:58,590 DEBUG 32464   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.860 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7415237426757812, 'positive_prob': 0.25847628712654114}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'ce699c9a-9dbd-11f0-b087-30894a61ffe3'}
+} 
+2025-09-30 13:25:01,891 DEBUG 32464   ---  [Thread-5] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7415237426757812, 'positive_prob': 0.25847628712654114}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'd0617212-9dbd-11f0-8003-30894a61ffe3'}
+} 
+2025-09-30 13:25:05,139 DEBUG 32464   ---  [Thread-6] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:23.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7415237426757812, 'positive_prob': 0.25847628712654114}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'd2511a36-9dbd-11f0-bfe9-30894a61ffe3'}
+} 
+2025-09-30 13:25:08,884 DEBUG 32464   ---  [Thread-7] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.680 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7415237426757812, 'positive_prob': 0.25847628712654114}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'd48c79be-9dbd-11f0-a4e2-30894a61ffe3'}
+} 
+2025-09-30 13:25:12,207 DEBUG 32464   ---  [Thread-8] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.7415237426757812, 'positive_prob': 0.25847628712654114}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': 'd68788a4-9dbd-11f0-a535-30894a61ffe3'}
+} 
+2025-09-30 13:41:46,271 DEBUG 40148   ---  [Thread-1] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:57.520 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.933435320854187, 'positive_prob': 0.06656461954116821}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': '27098b6e-9dc0-11f0-bca7-30894a61ffe3'}
+} 
+2025-09-30 13:41:54,825 DEBUG 40148   ---  [Thread-2] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.600 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9345966577529907, 'positive_prob': 0.06540336459875107}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是这两行的数字给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': '2c22eb78-9dc0-11f0-8be9-30894a61ffe3'}
+} 
+2025-09-30 13:42:17,196 DEBUG 40148   ---  [Thread-3] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:24.000 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是这两行的数字，给你们所有的礻乚品杩，来咯说声少年。'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.933435320854187, 'positive_prob': 0.06656461954116821}, 'label': 'REJECT', 'pinyin': 'q shi zhe liang xing de shu zi gei ni men suo you de shi yin pin ma lai ge shuo sheng shao nian', 'strokes': 'q〡㇕一一一〡一㇒㇏㇔一㇒㇔㇔㇋㇏一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一一㇔㇒一〡㇒㇏〡㇕一㇒㇇㇏〡㇕一㇔㇊㇔㇒〡㇕一㇒乚一〡一㇕〡一㇒〡㇒㇔㇒㇒一一〡一〡', 'text': 'q是这两行的数字给你们所有的礻乚品杩来咯说声少年'}], 'message': '成功', 'requestId': '39788cba-9dc0-11f0-b25d-30894a61ffe3'}
+} 
+2025-09-30 13:43:30,275 DEBUG 40148   ---  [Thread-4] - [POST] -> [/v1/inference] from:127.0.0.1 content-type:application/json costs:22.160 ms data:{
+	param: b'{}', 
+	form: {}, 
+	body: {'score_threshold': 0.5, 'nickname': 'yangjx', 'text': 'Q是上面两行的数字，给你们所有的礻乚品杩'}
+	response: {'code': 0, 'data': [{'id': 0, 'items': {'negative_prob': 0.9979683756828308, 'positive_prob': 0.002031621988862753}, 'label': 'REJECT', 'pinyin': 'q shi shang mian liang xing de shu zi gei ni men suo you de shi yin pin ma', 'strokes': 'q〡㇕一一一〡一㇒㇏〡一一一㇒〡㇕〡〡一一一一〡㇆㇒㇔㇒㇔㇒㇒〡一一㇚㇒〡㇕一一㇒㇆㇔㇔㇒一〡㇒㇔㇛㇒一㇒一㇒㇏㇔㇔㇇㇇㇚一𠃋𠃋㇀㇒㇏一〡㇕一㇒〡㇒㇇㇚㇒㇔㇒〡㇔〡㇆㇒㇒㇕一㇒㇒一〡一㇒〡㇆一一㇒〡㇕一一㇒㇆㇔㇔㇇〡㇔乚〡㇕一〡㇕一〡㇕一一〡㇒㇔㇕㇉一', 'text': 'q是上面两行的数字给你们所有的礻乚品杩'}], 'message': '成功', 'requestId': '65078a2e-9dc0-11f0-92da-30894a61ffe3'}
+} 
